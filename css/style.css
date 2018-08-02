@@ -4,13 +4,15 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .pokedex {
   display: block;
   width: 100%;
   max-width: 400px;
-  height: 500px;
+  height: 600px;
   background: #CE1030;
   margin: 50px auto;
   overflow: auto;
@@ -22,11 +24,13 @@ body {
 h1 {
   display: block;
   font-weight: 100;
-  font-size: 3rem;
-  text-align: center;
   margin: 25px 0;
-  color: #fff;
-  letter-spacing: 2px;
+  text-align: center;
+  color: #FFA500;
+  font-family: impact;
+  font-size: 3rem;
+  letter-spacing: 2;
+  text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
 }
 
 h3 {
@@ -35,7 +39,7 @@ h3 {
   font-size: 1.5rem;
   text-align: center;
   margin: 25px 0;
-  color: #fff;
+  color: aqua;
   letter-spacing: 2px;
   min-height: 25px;
 }
@@ -55,12 +59,16 @@ input[type="text"] {
 
 .btn {
   display: inline-block;
-  padding: 10px;
-  background: blue;
+  width: 100px;
+  padding: 10;
+  color: #FFA500;
+  background: #FFA500;
   font-weight: 300;
   cursor: pointer;
-  color: #fff;
-  letter-spacing: 3px;
+  font-size: 1.5rem;
+  border: 2px solid blue;
+  text-shadow: -1px -1px 1px #0000DF, 1px -1px 1px #0000DF, -1px 1px 1px #0000DF, 1px 1px 1px #0000DF;
+  letter-spacing: 1px;
   border-radius: 5px;
 }
 
@@ -89,4 +97,36 @@ input[type="text"] {
 
 img {
   width: 100%;
+}
+
+.title {
+  color: aqua;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  background: #CE1030;
+  margin: 0 auto;
+  overflow: auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.p,
+.p2,
+.p3,
+.p4,
+.p5 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 200;
+  width: 100%;
+  max-width: 400px;
+  height: 16px;
+  color: aqua;
+  margin: 0 auto;
+  overflow: auto;
+  overflow: hidden;
+  position: relative;
 }
