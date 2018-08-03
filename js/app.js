@@ -66,7 +66,7 @@ $(function () {
           .append(boldName)
 
       var paragraph = $("<p>")
-          .html(index+1)
+          .html(pokemon)
           .append(link)
       paragraph.appendTo("#pokedex");
 
