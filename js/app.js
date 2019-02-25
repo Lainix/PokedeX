@@ -106,3 +106,12 @@ $(function () {
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+/*
+  Recomendaciones generales: 
+   - Manten un clousure por archivo js
+   - Me parece interesante la aplicacion del despliegue de detalles a través del link. 
+   creo que estaría muy bien trabajar en despliegue más amigable de estos elementos. Tal vez
+   con alguna tarjeta de algún framework de css.
+   - Creo que Está bastante bien el desarrollo. Aunque creo que debes trabajar un poco todavía en el
+   orden del codigo.
+*/
